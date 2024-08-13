@@ -177,6 +177,7 @@
         display: flex;
         flex-wrap: wrap;
       }
+
       .column {
         flex: 1;
         min-width: 150px;
@@ -193,6 +194,7 @@
       }
     </style>
   </head>
+
   <body>
     <section class="hero">
       <div class="hero-body">
@@ -230,15 +232,33 @@
             <h2 class="title is-1">Abstract</h2>
             <div class="content has-text-justified">
               <p>
-                Although recent texture generation methods achieve impressive results by using text-to-image networks, challenges such as over-smoothness and inconsistency, hinder the application of these methods in real-world applications.
-                To address this issue, we propose FlexiTex, a flexible framework towards high-quality texture generation, supporting text and image conditioning both. The core of our work is the Visual Guidance Enhancement module, which incorporates specific information from visual guidance into denoising on multiple views. This approach prevents variance degradation and preserves high-frequency details during the synchronization of the shared texture.  
-                Furthermore, we introduce a View-Aware Adaptation module that automatically designs direction prompts based on different camera poses, mitigating the Janus problem and maintaining semantically global consistency.
-                Through experiments on meshes from various sources, we demonstrate that our method outperforms baseline methods both quantitatively and qualitatively, showcasing the potential in advancing texture generation for real-world applications.
+                Although recent texture generation methods achieve impressive
+                results by using text-to-image networks, challenges such as
+                over-smoothness and inconsistency, hinder the application of
+                these methods in real-world applications. To address this issue,
+                we propose FlexiTex, a flexible framework towards high-quality
+                texture generation, supporting text and image conditioning both.
+                The core of our work is the Visual Guidance Enhancement module,
+                which incorporates specific information from visual guidance
+                into denoising on multiple views. This approach prevents
+                variance degradation and preserves high-frequency details during
+                the synchronization of the shared texture. Furthermore, we
+                introduce a Direction-Aware Adaptation module that automatically
+                designs direction prompts based on different camera poses,
+                mitigating the Janus problem and maintaining semantically global
+                consistency. Through experiments on meshes from various sources,
+                we demonstrate that our method outperforms baseline methods both
+                quantitatively and qualitatively, showcasing the potential in
+                advancing texture generation for real-world applications.
               </p>
 
-              <br>
+              <br />
               <h2 class="title is-4" align="center">
-                <font color="grey"><u>It may take a while to load all textured meshes ...</u></font>
+                <font color="grey"
+                  ><u
+                    >It may take a while to load all textured meshes ...</u
+                  ></font
+                >
               </h2>
             </div>
           </div>
@@ -255,7 +275,6 @@
         </div>
       </div>
     </section> -->
-
 
     <!-- 2.1 Text-to-Texture -->
     <section class="section">
@@ -416,12 +435,12 @@
             </div>
           </div>
           <h5>
-            <i
-              ><font color="grey"
+            <i>
+              <font color="grey"
                 >a female wearing a robe with her hands crossed in front of her
                 chest</font
-              ></i
-            >
+              >
+            </i>
           </h5>
         </div>
 
@@ -565,7 +584,9 @@
             </div>
           </div>
           <h5>
-            <i><font color="grey">a small, cartoon-style house</font></i>
+            <i>
+              <font color="grey">a small, cartoon-style house</font>
+            </i>
           </h5>
         </div>
 
@@ -709,7 +730,9 @@
             </div>
           </div>
           <h5>
-            <i><font color="grey">a green tank with rich details</font></i>
+            <i>
+              <font color="grey">a green tank with rich details</font>
+            </i>
           </h5>
         </div>
 
@@ -855,7 +878,9 @@
                 </div>
               </div>
               <h5>
-                <i><font color="grey">an Eastern dragon</font></i>
+                <i>
+                  <font color="grey">an Eastern dragon</font>
+                </i>
               </h5>
             </div>
 
@@ -999,11 +1024,11 @@
                 </div>
               </div>
               <h5>
-                <i
-                  ><font color="grey"
+                <i>
+                  <font color="grey"
                     >an ancient caricon-style carriage with wooden wheels</font
-                  ></i
-                >
+                  >
+                </i>
               </h5>
             </div>
 
@@ -1147,7 +1172,9 @@
                 </div>
               </div>
               <h5>
-                <i><font color="grey">green tyrannosaurus</font></i>
+                <i>
+                  <font color="grey">green tyrannosaurus</font>
+                </i>
               </h5>
             </div>
 
@@ -1291,11 +1318,9 @@
                 </div>
               </div>
               <h5>
-                <i
-                  ><font color="grey"
-                    >a man wearing a long coat and hat</font
-                  ></i
-                >
+                <i>
+                  <font color="grey">a man wearing a long coat and hat</font>
+                </i>
               </h5>
             </div>
           </div>
@@ -1333,7 +1358,7 @@
             <div class="row is-mobile is-centered">
               <div class="columns is-mobile is-centered">
                 <div class="column is-mobile is-centered" align="center">
-                  <h4 >Reference</h4>
+                  <h4>Reference</h4>
                   <img
                     style="height: 120px; width: 120px"
                     src="3d-texture-gen/data_experiment_2/object-127/ref.png"
@@ -1672,7 +1697,7 @@
                   <div class="columns is-mobile is-centered">
                     <div class="column is-mobile is-centered">
                       <img
-                        style="height: 120px; width: 120px" 
+                        style="height: 120px; width: 120px"
                         src="3d-texture-gen/data_experiment_2/animal-235/ref.png"
                       />
                     </div>
@@ -1780,7 +1805,7 @@
               <div class="rows is-mobile is-centered">
                 <div class="row is-mobile is-centered">
                   <div class="columns is-mobile is-centered">
-                    <div class="column is-mobile is-centered" >
+                    <div class="column is-mobile is-centered">
                       <img
                         style="height: 120px; width: 120px"
                         src="3d-texture-gen/data_experiment_2/animal-375/ref.png"
@@ -1890,7 +1915,7 @@
               <div class="rows is-mobile is-centered">
                 <div class="row is-mobile is-centered">
                   <div class="columns is-mobile is-centered">
-                    <div class="column is-mobile is-centered" >
+                    <div class="column is-mobile is-centered">
                       <img
                         style="height: 120px; width: 120px"
                         src="3d-texture-gen/data_experiment_2/animal-286/ref.png"
@@ -2123,21 +2148,107 @@
 
     <br /><br />
 
+    <!-- 3.3 Texture Editing -->
+    <!-- <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-1">Diverse Texture Synthesis</h2>
+        <h5>
+          <font color="grey">
+            We use 10 text prompts and 10 different image prompts on the same meshes.
+          </font>
+        </h5>
+      </div>
+    </div>
+  </section> -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <h2 class="title is-1">Diverse Texture Synthesis</h2>
+          <h5>
+            <font color="grey">
+              We use 10 text prompts and 10 different image prompts here and
+              achieve diverse results on the same meshes.
+            </font>
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser">
+      <div class="container has-7-cols-desktop">
+        <div class="columns is-mobile is-centered">
+          <div class="rows is-mobile is-centered">
+            <div class="row is-mobile is-centered">
+              <div class="columns is-mobile is-centered">
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <img
+                      src="3d-texture-gen/texture_edit/edit_text.png"
+                      style="height: 200px; width: 550px"
+                    />
+                    <img
+                      src="3d-texture-gen/texture_edit/edit_image.png"
+                      style="height: 200px; width: 550px"
+                    />
+                  </div>
+                  <div class="row is-mobile is-centered">
+                    <video
+                      autoplay
+                      controls
+                      muted
+                      loop
+                      playsinline
+                      style="height: 200px; width: 550px"
+                    >
+                      <source
+                        src="./3d-texture-gen/texture_edit/edit_text.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                    <video
+                      autoplay
+                      controls
+                      muted
+                      loop
+                      playsinline
+                      style="height: 200px; width: 550px"
+                    >
+                      <source
+                        src="./3d-texture-gen/texture_edit/edit_image.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br /><br />
+
     <section class="section hero is-light">
       <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
           <h2 class="title is-1">Framework</h2>
           <img src="images/framework.jpg" width="100%" />
         </div>
-          <div class="content has-text-justified">
+        <div class="content has-text-justified">
           <p>
-            The framework of FlexiTex. 
-            Given a mesh with corrected orientation and text/image prompts, the Visual Guidance Enhancement module extracts visual features to provide informative guidance during the denoising steps. 
-            The View-Aware Adaptation module then injects direction prompts according to camera poses, employing diffusion models that are more geometrically sensitive. 
-            Through iterative texture warpping and rasterization, our method generates high-fidelity textures of both rich details and multi-view consistency.
+            The framework of FlexiTex. Given a mesh with corrected orientation
+            and text/image prompts, the Visual Guidance Enhancement module
+            extracts visual features to provide informative guidance during the
+            denoising steps. The Direction-Aware Adaptation module then injects
+            direction prompts according to camera poses, employing diffusion
+            models that are more geometrically sensitive. Through iterative
+            texture warpping and rasterization, our method generates
+            high-fidelity textures of both rich details and multi-view
+            consistency.
           </p>
         </div>
-        
       </div>
     </section>
 
@@ -2147,7 +2258,9 @@
     <section class="section">
       <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
-          <h2 class="title is-1">Ablation Results on Visual Guidance Enhancement(VGE)</h2>
+          <h2 class="title is-1">
+            Ablation Results on Visual Guidance Enhancement(VGE)
+          </h2>
           <h5>
             <font color="grey">
               Through Visual Guidance Enhancement module, we
@@ -2161,358 +2274,354 @@
 
     <section class="hero" id="teaser">
       <div class="container is-max-desktop">
-        <div class="columns is-mobile is-centered">
-          <div class="rows is-mobile is-centered">
-            <div class="row is-mobile is-centered">
-              <div class="columns is-mobile is-centered">
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <p style="text-align: center; line-height: 200px">
-                      <b>Simple Prompt</b>
-                    </p>
-                  </div>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/042f226cadc3bfa6ab3f46f93da25b36b43dc9cf94946b67e815dbf80cbff32f/textured_simple.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <h5>
-                    <i><font color="grey">small carton house</font></i>
-                  </h5>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/13bea94878b04b43bd929fddf5e02bb2/textured_simple.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <h5>
-                    <i><font color="grey">while flower</font></i>
-                  </h5>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/a1da182c3e0348729a525ed94952208d/textured_simple.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <h5>
-                    <i><font color="grey">metal bracelet</font></i>
-                  </h5>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/6bd9e79ba481af4d213bc9a0e34e817167151f27880edd6d2bcc34ff5b5b5f52/textured_simple.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <h5>
-                    <i><font color="grey">retro pistol</font></i>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="columns is-mobile is-centered">
-          <div class="rows is-mobile is-centered">
-            <div class="row is-mobile is-centered">
-              <div class="columns is-mobile is-centered">
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <p style="text-align: center; line-height: 200px">
-                      <b>+ Refined Prompt</b>
-                    </p>
-                  </div>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/042f226cadc3bfa6ab3f46f93da25b36b43dc9cf94946b67e815dbf80cbff32f/textured_text.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <h5>
-                    <i
-                      ><font color="grey"
-                        >a small cartoon-style house with featuring a white
-                        window frame and a rustic wooden door</font
-                      ></i
-                    >
-                  </h5>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/13bea94878b04b43bd929fddf5e02bb2/textured_text.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <h5>
-                    <i
-                      ><font color="grey"
-                        >a white flower with intricate details, featuring
-                        delicate yellow stamens, soft green leaves, and subtle
-                        texture on petals, all rendered in realistic colors and
-                        materials</font
-                      ></i
-                    >
-                  </h5>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/a1da182c3e0348729a525ed94952208d/textured_text.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <h5>
-                    <i
-                      ><font color="grey"
-                        >a ring with two layers of loop buckles, featuring a
-                        silver-colored metal body with intricate details on the
-                        sides and top</font
-                      ></i
-                    >
-                  </h5>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/6bd9e79ba481af4d213bc9a0e34e817167151f27880edd6d2bcc34ff5b5b5f52/textured_text.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <h5>
-                    <i
-                      ><font color="grey"
-                        >a detailed replica of a gun, featuring a metallic
-                        silver handle with intricate engravings and a wooden
-                        grip with a rich brown color</font
-                      ></i
-                    >
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="columns is-mobile is-centered">
-          <div class="rows is-mobile is-centered">
-            <div class="row is-mobile is-centered">
-              <div class="columns is-mobile is-centered">
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <p style="text-align: center; line-height: 200px">
-                      <b>+ VGE</b>
-                    </p>
-                  </div>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/042f226cadc3bfa6ab3f46f93da25b36b43dc9cf94946b67e815dbf80cbff32f/textured_image.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <div class="row is-mobile is-centered" align="center">
-                    <img
-                      src="3d-texture-gen/data_experiment_3/042f226cadc3bfa6ab3f46f93da25b36b43dc9cf94946b67e815dbf80cbff32f/t2i_color.png"
-                      style="height: 80px; width: 80px"
-                    />
-                  </div>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/13bea94878b04b43bd929fddf5e02bb2/textured_image.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <div class="row is-mobile is-centered" align="center">
-                    <img
-                      src="3d-texture-gen/data_experiment_3/13bea94878b04b43bd929fddf5e02bb2/t2i_color.png"
-                      style="height: 80px; width: 80px"
-                    />
-                  </div>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/a1da182c3e0348729a525ed94952208d/textured_image.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <div class="row is-mobile is-centered" align="center">
-                    <img
-                      src="3d-texture-gen/data_experiment_3/a1da182c3e0348729a525ed94952208d/t2i_color.png"
-                      style="height: 80px; width: 80px"
-                    />
-                  </div>
-                </div>
-
-                <div class="column is-mobile is-centered">
-                  <div class="row is-mobile is-centered">
-                    <model-viewer
-                      style="height: 150px; width: 200px"
-                      rotation-per-second="60deg"
-                      id="t1"
-                      src="3d-texture-gen/data_experiment_3/6bd9e79ba481af4d213bc9a0e34e817167151f27880edd6d2bcc34ff5b5b5f52/textured_image.glb"
-                      environment-image="neutral"
-                      camera-target="0m 0m 0m"
-                      orientation="0deg 0deg 180deg"
-                      shadow-intensity="1"
-                      ar:true
-                      auto-rotate
-                      camera-controls
-                    >
-                    </model-viewer>
-                  </div>
-                  <div class="row is-mobile is-centered" align="center">
-                    <img
-                      src="3d-texture-gen/data_experiment_3/6bd9e79ba481af4d213bc9a0e34e817167151f27880edd6d2bcc34ff5b5b5f52/t2i_color.png"
-                      style="height: 80px; width: 80px"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <br />
-        <div id="collapseThree" class="panel-collapse collapse in">
-          <div class="panel-body">
+        <div class="rows is-mobile is-centered">
+          <div class="row is-mobile is-centered">
             <div class="columns is-mobile is-centered">
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <p style="text-align: center; line-height: 200px">
+                    <b>Simple Prompt</b>
+                  </p>
+                </div>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/042f226cadc3bfa6ab3f46f93da25b36b43dc9cf94946b67e815dbf80cbff32f/textured_simple.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <h5>
+                  <i>
+                    <font color="grey">small carton house</font>
+                  </i>
+                </h5>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/13bea94878b04b43bd929fddf5e02bb2/textured_simple.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <h5>
+                  <i>
+                    <font color="grey">while flower</font>
+                  </i>
+                </h5>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/a1da182c3e0348729a525ed94952208d/textured_simple.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <h5>
+                  <i>
+                    <font color="grey">metal bracelet</font>
+                  </i>
+                </h5>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/6bd9e79ba481af4d213bc9a0e34e817167151f27880edd6d2bcc34ff5b5b5f52/textured_simple.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <h5>
+                  <i>
+                    <font color="grey">retro pistol</font>
+                  </i>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="row is-mobile is-centered">
+            <div class="columns is-mobile is-centered">
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <p style="text-align: center; line-height: 200px">
+                    <b>+ Refined Prompt</b>
+                  </p>
+                </div>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/042f226cadc3bfa6ab3f46f93da25b36b43dc9cf94946b67e815dbf80cbff32f/textured_text.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <h5>
+                  <i>
+                    <font color="grey"
+                      >a small cartoon-style house with featuring a white window
+                      frame and a rustic wooden door</font
+                    >
+                  </i>
+                </h5>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/13bea94878b04b43bd929fddf5e02bb2/textured_text.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <h5>
+                  <i>
+                    <font color="grey"
+                      >a white flower with intricate details, featuring delicate
+                      yellow stamens, soft green leaves, and subtle texture on
+                      petals, all rendered in realistic colors and
+                      materials</font
+                    >
+                  </i>
+                </h5>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/a1da182c3e0348729a525ed94952208d/textured_text.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <h5>
+                  <i>
+                    <font color="grey"
+                      >a ring with two layers of loop buckles, featuring a
+                      silver-colored metal body with intricate details on the
+                      sides and top</font
+                    >
+                  </i>
+                </h5>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/6bd9e79ba481af4d213bc9a0e34e817167151f27880edd6d2bcc34ff5b5b5f52/textured_text.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <h5>
+                  <i>
+                    <font color="grey"
+                      >a detailed replica of a gun, featuring a metallic silver
+                      handle with intricate engravings and a wooden grip with a
+                      rich brown color</font
+                    >
+                  </i>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="row is-mobile is-centered">
+            <div class="columns is-mobile is-centered">
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <p style="text-align: center; line-height: 200px">
+                    <b>+ VGE</b>
+                  </p>
+                </div>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/042f226cadc3bfa6ab3f46f93da25b36b43dc9cf94946b67e815dbf80cbff32f/textured_image.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <div class="row is-mobile is-centered" align="center">
+                  <img
+                    src="3d-texture-gen/data_experiment_3/042f226cadc3bfa6ab3f46f93da25b36b43dc9cf94946b67e815dbf80cbff32f/t2i_color.png"
+                    style="height: 80px; width: 80px"
+                  />
+                </div>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/13bea94878b04b43bd929fddf5e02bb2/textured_image.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <div class="row is-mobile is-centered" align="center">
+                  <img
+                    src="3d-texture-gen/data_experiment_3/13bea94878b04b43bd929fddf5e02bb2/t2i_color.png"
+                    style="height: 80px; width: 80px"
+                  />
+                </div>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/a1da182c3e0348729a525ed94952208d/textured_image.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <div class="row is-mobile is-centered" align="center">
+                  <img
+                    src="3d-texture-gen/data_experiment_3/a1da182c3e0348729a525ed94952208d/t2i_color.png"
+                    style="height: 80px; width: 80px"
+                  />
+                </div>
+              </div>
+
+              <div class="column is-mobile is-centered">
+                <div class="row is-mobile is-centered">
+                  <model-viewer
+                    style="height: 150px; width: 200px"
+                    rotation-per-second="60deg"
+                    id="t1"
+                    src="3d-texture-gen/data_experiment_3/6bd9e79ba481af4d213bc9a0e34e817167151f27880edd6d2bcc34ff5b5b5f52/textured_image.glb"
+                    environment-image="neutral"
+                    camera-target="0m 0m 0m"
+                    orientation="0deg 0deg 180deg"
+                    shadow-intensity="1"
+                    ar:true
+                    auto-rotate
+                    camera-controls
+                  >
+                  </model-viewer>
+                </div>
+                <div class="row is-mobile is-centered" align="center">
+                  <img
+                    src="3d-texture-gen/data_experiment_3/6bd9e79ba481af4d213bc9a0e34e817167151f27880edd6d2bcc34ff5b5b5f52/t2i_color.png"
+                    style="height: 80px; width: 80px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <div id="collapseThree" class="panel-collapse collapse in">
+            <div class="panel-body">
               <div class="rows is-mobile is-centered">
                 <div class="row is-mobile is-centered">
                   <div class="columns is-mobile is-centered">
@@ -2542,33 +2651,9 @@
                         </model-viewer>
                       </div>
                       <h5>
-                        <i
-                          ><font color="grey"
-                            >modern high-rise building</font
-                          ></i
-                        >
-                      </h5>
-                    </div>
-
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/e39ae2c8dd8a4003a00f39079a3ba615/textured_simple.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <h5>
-                        <i><font color="grey">train car with details</font></i>
+                        <i>
+                          <font color="grey">modern high-rise building</font>
+                        </i>
                       </h5>
                     </div>
 
@@ -2590,7 +2675,9 @@
                         </model-viewer>
                       </div>
                       <h5>
-                        <i><font color="grey">green dinosaur</font></i>
+                        <i>
+                          <font color="grey">green dinosaur</font>
+                        </i>
                       </h5>
                     </div>
 
@@ -2612,7 +2699,9 @@
                         </model-viewer>
                       </div>
                       <h5>
-                        <i><font color="grey">businessman</font></i>
+                        <i>
+                          <font color="grey">businessman</font>
+                        </i>
                       </h5>
                     </div>
                   </div>
@@ -2620,253 +2709,190 @@
               </div>
             </div>
 
-            <div class="columns is-mobile is-centered">
-              <div class="rows is-mobile is-centered">
-                <div class="row is-mobile is-centered">
-                  <div class="columns is-mobile is-centered">
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <p style="text-align: center; line-height: 200px">
-                          <b>+ Refined Prompt</b>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/69fdad701cb14d70b20f6062639af126/textured_text.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <h5>
-                        <i
-                          ><font color="grey"
-                            >a modern-style high-rise building with multiple
-                            floors and windows featuring warm-toned brick
-                            exterior, and vibrant greenery on rooftops</font
-                          ></i
-                        >
-                      </h5>
-                    </div>
-
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/e39ae2c8dd8a4003a00f39079a3ba615/textured_text.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <h5>
-                        <i
-                          ><font color="grey"
-                            >a train car, carriage is made of metallic gray
-                            material with a slightly worn texture, several white
-                            round buttons are scattered on both sides, possibly
-                            used to secure cargo</font
-                          ></i
-                        >
-                      </h5>
-                    </div>
-
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/d6ba7cb48af6393b921ec2b445237a1c888ce13f65419de70bada769057050b9/textured_text.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <h5>
-                        <i
-                          ><font color="grey"
-                            >a vibrant green dinosaur with scaly skin, sharp
-                            teeth, and a long, curved tail, with darker green
-                            accents on its arms and legs</font
-                          ></i
-                        >
-                      </h5>
-                    </div>
-
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/da8bc62eb410b13f42f03d8751cc4f49cd15084a6ee23b72ac96793261d01d6f/textured_text.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <h5>
-                        <i
-                          ><font color="grey"
-                            >a white male wearing a charcoal gray suit with a
-                            subtle sheen, paired with black leather shoes and a
-                            crisp white shirt with thin stripes. He wears black
-                            sunglasses</font
-                          ></i
-                        >
-                      </h5>
-                    </div>
+            <div class="row is-mobile is-centered">
+              <div class="columns is-mobile is-centered">
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <p style="text-align: center; line-height: 200px">
+                      <b>+ Refined Prompt</b>
+                    </p>
                   </div>
+                </div>
+
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <model-viewer
+                      style="height: 150px; width: 200px"
+                      rotation-per-second="60deg"
+                      id="t1"
+                      src="3d-texture-gen/data_experiment_3/69fdad701cb14d70b20f6062639af126/textured_text.glb"
+                      environment-image="neutral"
+                      camera-target="0m 0m 0m"
+                      orientation="0deg 0deg 180deg"
+                      shadow-intensity="1"
+                      ar:true
+                      auto-rotate
+                      camera-controls
+                    >
+                    </model-viewer>
+                  </div>
+                  <h5>
+                    <i>
+                      <font color="grey"
+                        >a modern-style high-rise building with multiple floors
+                        and windows featuring warm-toned brick exterior, and
+                        vibrant greenery on rooftops</font
+                      >
+                    </i>
+                  </h5>
+                </div>
+
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <model-viewer
+                      style="height: 150px; width: 200px"
+                      rotation-per-second="60deg"
+                      id="t1"
+                      src="3d-texture-gen/data_experiment_3/d6ba7cb48af6393b921ec2b445237a1c888ce13f65419de70bada769057050b9/textured_text.glb"
+                      environment-image="neutral"
+                      camera-target="0m 0m 0m"
+                      orientation="0deg 0deg 180deg"
+                      shadow-intensity="1"
+                      ar:true
+                      auto-rotate
+                      camera-controls
+                    >
+                    </model-viewer>
+                  </div>
+                  <h5>
+                    <i>
+                      <font color="grey"
+                        >a vibrant green dinosaur with scaly skin, sharp teeth,
+                        and a long, curved tail, with darker green accents on
+                        its arms and legs</font
+                      >
+                    </i>
+                  </h5>
+                </div>
+
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <model-viewer
+                      style="height: 150px; width: 200px"
+                      rotation-per-second="60deg"
+                      id="t1"
+                      src="3d-texture-gen/data_experiment_3/da8bc62eb410b13f42f03d8751cc4f49cd15084a6ee23b72ac96793261d01d6f/textured_text.glb"
+                      environment-image="neutral"
+                      camera-target="0m 0m 0m"
+                      orientation="0deg 0deg 180deg"
+                      shadow-intensity="1"
+                      ar:true
+                      auto-rotate
+                      camera-controls
+                    >
+                    </model-viewer>
+                  </div>
+                  <h5>
+                    <i>
+                      <font color="grey"
+                        >a white male wearing a charcoal gray suit with a subtle
+                        sheen, paired with black leather shoes and a crisp white
+                        shirt with thin stripes. He wears black sunglasses</font
+                      >
+                    </i>
+                  </h5>
                 </div>
               </div>
             </div>
 
-            <div class="columns is-mobile is-centered">
-              <div class="rows is-mobile is-centered">
-                <div class="row is-mobile is-centered">
-                  <div class="columns is-mobile is-centered">
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <p style="text-align: center; line-height: 200px">
-                          <b>+ VGE</b>
-                        </p>
-                      </div>
-                    </div>
+            <div class="row is-mobile is-centered">
+              <div class="columns is-mobile is-centered">
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <p style="text-align: center; line-height: 200px">
+                      <b>+ VGE</b>
+                    </p>
+                  </div>
+                </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/69fdad701cb14d70b20f6062639af126/textured_image.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <div class="row is-mobile is-centered" align="center">
-                        <img
-                          src="3d-texture-gen/data_experiment_3/69fdad701cb14d70b20f6062639af126/t2i_color.png"
-                          style="height: 80px; width: 80px"
-                        />
-                      </div>
-                    </div>
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <model-viewer
+                      style="height: 150px; width: 200px"
+                      rotation-per-second="60deg"
+                      id="t1"
+                      src="3d-texture-gen/data_experiment_3/69fdad701cb14d70b20f6062639af126/textured_image.glb"
+                      environment-image="neutral"
+                      camera-target="0m 0m 0m"
+                      orientation="0deg 0deg 180deg"
+                      shadow-intensity="1"
+                      ar:true
+                      auto-rotate
+                      camera-controls
+                    >
+                    </model-viewer>
+                  </div>
+                  <div class="row is-mobile is-centered" align="center">
+                    <img
+                      src="3d-texture-gen/data_experiment_3/69fdad701cb14d70b20f6062639af126/t2i_color.png"
+                      style="height: 80px; width: 80px"
+                    />
+                  </div>
+                </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/e39ae2c8dd8a4003a00f39079a3ba615/textured_image.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <div class="row is-mobile is-centered" align="center">
-                        <img
-                          src="3d-texture-gen/data_experiment_3/e39ae2c8dd8a4003a00f39079a3ba615/t2i_color.png"
-                          style="height: 80px; width: 80px"
-                        />
-                      </div>
-                    </div>
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <model-viewer
+                      style="height: 150px; width: 200px"
+                      rotation-per-second="60deg"
+                      id="t1"
+                      src="3d-texture-gen/data_experiment_3/d6ba7cb48af6393b921ec2b445237a1c888ce13f65419de70bada769057050b9/textured_image.glb"
+                      environment-image="neutral"
+                      camera-target="0m 0m 0m"
+                      orientation="0deg 0deg 180deg"
+                      shadow-intensity="1"
+                      ar:true
+                      auto-rotate
+                      camera-controls
+                    >
+                    </model-viewer>
+                  </div>
+                  <div class="row is-mobile is-centered" align="center">
+                    <img
+                      src="3d-texture-gen/data_experiment_3/d6ba7cb48af6393b921ec2b445237a1c888ce13f65419de70bada769057050b9/t2i_color.png"
+                      style="height: 80px; width: 80px"
+                    />
+                  </div>
+                </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/d6ba7cb48af6393b921ec2b445237a1c888ce13f65419de70bada769057050b9/textured_image.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <div class="row is-mobile is-centered" align="center">
-                        <img
-                          src="3d-texture-gen/data_experiment_3/d6ba7cb48af6393b921ec2b445237a1c888ce13f65419de70bada769057050b9/t2i_color.png"
-                          style="height: 80px; width: 80px"
-                        />
-                      </div>
-                    </div>
-
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_3/da8bc62eb410b13f42f03d8751cc4f49cd15084a6ee23b72ac96793261d01d6f/textured_image.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
-                      <div class="row is-mobile is-centered" align="center">
-                        <img
-                          src="3d-texture-gen/data_experiment_3/da8bc62eb410b13f42f03d8751cc4f49cd15084a6ee23b72ac96793261d01d6f/t2i_color.png"
-                          style="height: 80px; width: 80px"
-                        />
-                      </div>
-                    </div>
+                <div class="column is-mobile is-centered">
+                  <div class="row is-mobile is-centered">
+                    <model-viewer
+                      style="height: 150px; width: 200px"
+                      rotation-per-second="60deg"
+                      id="t1"
+                      src="3d-texture-gen/data_experiment_3/da8bc62eb410b13f42f03d8751cc4f49cd15084a6ee23b72ac96793261d01d6f/textured_image.glb"
+                      environment-image="neutral"
+                      camera-target="0m 0m 0m"
+                      orientation="0deg 0deg 180deg"
+                      shadow-intensity="1"
+                      ar:true
+                      auto-rotate
+                      camera-controls
+                    >
+                    </model-viewer>
+                  </div>
+                  <div class="row is-mobile is-centered" align="center">
+                    <img
+                      src="3d-texture-gen/data_experiment_3/da8bc62eb410b13f42f03d8751cc4f49cd15084a6ee23b72ac96793261d01d6f/t2i_color.png"
+                      style="height: 80px; width: 80px"
+                    />
                   </div>
                 </div>
               </div>
             </div>
-            <br />
           </div>
+          <br />
         </div>
         <div class="columns is-mobile is-centered">
           <button
@@ -2884,14 +2910,16 @@
 
     <br /><br />
 
-    <!-- 4.2 Ablation Results on View-Aware Adaptation -->
+    <!-- 4.2 Ablation Results on Direction-Aware Adaptation -->
     <section class="section">
       <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
-          <h2 class="title is-1">Ablation Results on View-Aware Adaptation</h2>
+          <h2 class="title is-1">
+            Ablation Results on Direction-Aware Adaptation(DAA)
+          </h2>
           <h5>
             <font color="grey">
-              Through VAA module, we improve the <u>geometric awareness</u> in
+              Through DAA module, we improve the <u>geometric awareness</u> in
               texture generation and <u>alleviate the multi-face problem</u>.
             </font>
           </h5>
@@ -2908,7 +2936,7 @@
                 <div class="column is-mobile is-centered">
                   <div class="row is-mobile is-centered">
                     <p style="text-align: center; line-height: 150px">
-                      <b>w/o VAA</b>
+                      <b>w/o DAA</b>
                     </p>
                   </div>
                 </div>
@@ -3000,7 +3028,7 @@
                 <div class="column is-mobile is-centered">
                   <div class="row is-mobile is-centered">
                     <p style="text-align: center; line-height: 150px">
-                      <b>w/ VAA</b>
+                      <b>w/ DAA</b>
                     </p>
                   </div>
                 </div>
@@ -3087,184 +3115,182 @@
 
         <div id="collapseFour" class="panel-collapse collapse in">
           <div class="panel-body">
-            <div class="columns is-mobile is-centered">
-              <div class="rows is-mobile is-centered">
-                <div class="row is-mobile is-centered">
-                  <div class="columns is-mobile is-centered">
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <p style="text-align: center; line-height: 150px">
-                          <b>w/o VAA</b>
-                        </p>
-                      </div>
+            <div class="rows is-mobile is-centered">
+              <div class="row is-mobile is-centered">
+                <div class="columns is-mobile is-centered">
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <p style="text-align: center; line-height: 150px">
+                        <b>w/o DAA</b>
+                      </p>
                     </div>
+                  </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_4/2f31db3d679446eca15dd115119371d1/textured_error.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <model-viewer
+                        style="height: 150px; width: 200px"
+                        rotation-per-second="60deg"
+                        id="t1"
+                        src="3d-texture-gen/data_experiment_4/2f31db3d679446eca15dd115119371d1/textured_error.glb"
+                        environment-image="neutral"
+                        camera-target="0m 0m 0m"
+                        orientation="0deg 0deg 180deg"
+                        shadow-intensity="1"
+                        ar:true
+                        auto-rotate
+                        camera-controls
+                      >
+                      </model-viewer>
                     </div>
+                  </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_4/41f06d5b8d004fcfa7d214117398e6dd/textured_error.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <model-viewer
+                        style="height: 150px; width: 200px"
+                        rotation-per-second="60deg"
+                        id="t1"
+                        src="3d-texture-gen/data_experiment_4/41f06d5b8d004fcfa7d214117398e6dd/textured_error.glb"
+                        environment-image="neutral"
+                        camera-target="0m 0m 0m"
+                        orientation="0deg 0deg 180deg"
+                        shadow-intensity="1"
+                        ar:true
+                        auto-rotate
+                        camera-controls
+                      >
+                      </model-viewer>
                     </div>
+                  </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_4/59ae25538a39b9569d6a8736b191514e1b8c075ed6679ec0ca0d2baa703a76c4/textured_error.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <model-viewer
+                        style="height: 150px; width: 200px"
+                        rotation-per-second="60deg"
+                        id="t1"
+                        src="3d-texture-gen/data_experiment_4/59ae25538a39b9569d6a8736b191514e1b8c075ed6679ec0ca0d2baa703a76c4/textured_error.glb"
+                        environment-image="neutral"
+                        camera-target="0m 0m 0m"
+                        orientation="0deg 0deg 180deg"
+                        shadow-intensity="1"
+                        ar:true
+                        auto-rotate
+                        camera-controls
+                      >
+                      </model-viewer>
                     </div>
+                  </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_4/a42331c76e8d48969d00227872c3558c/textured_error.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <model-viewer
+                        style="height: 150px; width: 200px"
+                        rotation-per-second="60deg"
+                        id="t1"
+                        src="3d-texture-gen/data_experiment_4/a42331c76e8d48969d00227872c3558c/textured_error.glb"
+                        environment-image="neutral"
+                        camera-target="0m 0m 0m"
+                        orientation="0deg 0deg 180deg"
+                        shadow-intensity="1"
+                        ar:true
+                        auto-rotate
+                        camera-controls
+                      >
+                      </model-viewer>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="columns is-mobile is-centered">
-              <div class="rows is-mobile is-centered">
-                <div class="row is-mobile is-centered">
-                  <div class="columns is-mobile is-centered">
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <p style="text-align: center; line-height: 150px">
-                          <b>w/ VAA</b>
-                        </p>
-                      </div>
+          <div class="columns is-mobile is-centered">
+            <div class="rows is-mobile is-centered">
+              <div class="row is-mobile is-centered">
+                <div class="columns is-mobile is-centered">
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <p style="text-align: center; line-height: 150px">
+                        <b>w/ DAA</b>
+                      </p>
                     </div>
+                  </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_4/2f31db3d679446eca15dd115119371d1/textured_ours.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <model-viewer
+                        style="height: 150px; width: 200px"
+                        rotation-per-second="60deg"
+                        id="t1"
+                        src="3d-texture-gen/data_experiment_4/2f31db3d679446eca15dd115119371d1/textured_ours.glb"
+                        environment-image="neutral"
+                        camera-target="0m 0m 0m"
+                        orientation="0deg 0deg 180deg"
+                        shadow-intensity="1"
+                        ar:true
+                        auto-rotate
+                        camera-controls
+                      >
+                      </model-viewer>
                     </div>
+                  </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_4/41f06d5b8d004fcfa7d214117398e6dd/textured_ours.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <model-viewer
+                        style="height: 150px; width: 200px"
+                        rotation-per-second="60deg"
+                        id="t1"
+                        src="3d-texture-gen/data_experiment_4/41f06d5b8d004fcfa7d214117398e6dd/textured_ours.glb"
+                        environment-image="neutral"
+                        camera-target="0m 0m 0m"
+                        orientation="0deg 0deg 180deg"
+                        shadow-intensity="1"
+                        ar:true
+                        auto-rotate
+                        camera-controls
+                      >
+                      </model-viewer>
                     </div>
+                  </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_4/59ae25538a39b9569d6a8736b191514e1b8c075ed6679ec0ca0d2baa703a76c4/textured_ours.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <model-viewer
+                        style="height: 150px; width: 200px"
+                        rotation-per-second="60deg"
+                        id="t1"
+                        src="3d-texture-gen/data_experiment_4/59ae25538a39b9569d6a8736b191514e1b8c075ed6679ec0ca0d2baa703a76c4/textured_ours.glb"
+                        environment-image="neutral"
+                        camera-target="0m 0m 0m"
+                        orientation="0deg 0deg 180deg"
+                        shadow-intensity="1"
+                        ar:true
+                        auto-rotate
+                        camera-controls
+                      >
+                      </model-viewer>
                     </div>
+                  </div>
 
-                    <div class="column is-mobile is-centered">
-                      <div class="row is-mobile is-centered">
-                        <model-viewer
-                          style="height: 150px; width: 200px"
-                          rotation-per-second="60deg"
-                          id="t1"
-                          src="3d-texture-gen/data_experiment_4/a42331c76e8d48969d00227872c3558c/textured_ours.glb"
-                          environment-image="neutral"
-                          camera-target="0m 0m 0m"
-                          orientation="0deg 0deg 180deg"
-                          shadow-intensity="1"
-                          ar:true
-                          auto-rotate
-                          camera-controls
-                        >
-                        </model-viewer>
-                      </div>
+                  <div class="column is-mobile is-centered">
+                    <div class="row is-mobile is-centered">
+                      <model-viewer
+                        style="height: 150px; width: 200px"
+                        rotation-per-second="60deg"
+                        id="t1"
+                        src="3d-texture-gen/data_experiment_4/a42331c76e8d48969d00227872c3558c/textured_ours.glb"
+                        environment-image="neutral"
+                        camera-target="0m 0m 0m"
+                        orientation="0deg 0deg 180deg"
+                        shadow-intensity="1"
+                        ar:true
+                        auto-rotate
+                        camera-controls
+                      >
+                      </model-viewer>
                     </div>
                   </div>
                 </div>
